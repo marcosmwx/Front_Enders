@@ -1,3 +1,4 @@
+
 const nav = document.querySelector("nav"),
         toggleBtn = nav.querySelector(".toggle-btn");
     
@@ -16,7 +17,7 @@ const nav = document.querySelector("nav"),
             mm = String(hoje.getMonth() + 1).padStart(2, "0"),
             yyyy = hoje.getFullYear(),
             nextano = yyyy + 1,
-            diaMes = "11/02/",
+            diaMes = "11/15/",
             data = diaMes + yyyy;
         
         hoje = mm + "/" + dd + "/" + yyyy;
@@ -27,13 +28,13 @@ const nav = document.querySelector("nav"),
         
         const countDown = new Date(data).getTime(),
             x = setInterval(function() {    
-      
+
               const now = new Date().getTime(),
                     distance = countDown - now;
       
-              document.getElementById("dias").innerText = Math.floor(distance / (dia))+" :",
+              document.getElementById("dias").innerText = Math.floor(distance / (dia))+"  :",
                 document.getElementById("horas").innerText = Math.floor((distance % (dia)) / (hora))+" :",
-                document.getElementById("minutos").innerText = Math.floor((distance % (hora)) / (minutos))+" :",
+                document.getElementById("minutos").innerText = Math.floor((distance % (hora)) / (minutos))+"  :",
                 document.getElementById("segundos").innerText = Math.floor((distance % (minutos)) / segundos);
       
               
@@ -45,21 +46,8 @@ const nav = document.querySelector("nav"),
              
             }, 0)
         }());
-        const debounce = function(func, wait, immediate) {
-          let timeout;
-          return function(...args) {
-            const context = this;
-            const later = function () {
-              timeout = null;
-              if (!immediate) func.apply(context, args);
-            };
-            const callNow = immediate && !timeout;
-            clearTimeout(timeout);
-            timeout = setTimeout(later, wait);
-            if (callNow) func.apply(context, args);
-          };
-        };
-        
+
+
 const target = document.querySelectorAll('[data-anime');
 const animationClass = 'animate';
 
@@ -74,10 +62,10 @@ function animeScroll(){
 
     }
 
-    
+    console.log(el.offsetTop)
  })
 
 }
 window.addEventListener('scroll', function(){
   animeScroll();
-});
+})
