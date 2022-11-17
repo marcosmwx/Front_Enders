@@ -13,7 +13,7 @@ Final Adjusts..
 ### Funcionalidades e demonstração do projeto // Project features and demo ###
 
 Pagina inicial com uma breve demonstração e um formulario de inscrição.
-![image](https://user-images.githubusercontent.com/87791042/202328667-79c86c3c-3c2e-4ba3-9380-d87454886b55.png)
+![image](https://user-images.githubusercontent.com/87791042/202330085-3a513c9b-fb8a-4a4d-9d48-e2ef2fda811f.png)
 ![image](https://user-images.githubusercontent.com/87791042/202328699-84a5be21-0621-4a91-bb99-ad963eb796ee.png)
 ![image](https://user-images.githubusercontent.com/87791042/202329320-b14e091a-8765-48ae-926d-2bae8d7970d4.png)
 
