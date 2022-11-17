@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&family=Open+Sans:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'noto sans', sans-serif ;
+    margin: 0;
+    background:url("../img/backk.jpg")
+   
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url("../img/backk.jpg")
+    
+
+}
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.left-login >h1 {
+    color: #7700A6;
+    
+}
+
+.left-login-image{
+    width:80vh;
+    
+}
+
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: linear-gradient(to right top, #fe00fe, #cc12e2, #9c16c4, #7013a5, #470d84, #3e0b7c, #340874, #2b066c, #3d077b, #50078a, #630598, #7700a6);
+    border-radius: 20px;
+    box-shadow: rgba(129, 9, 153, 0.56) 0px 22px 70px 4px;
+    
+}
+.card-login > h1{
+    color: #f2f3f8;
+    font-weight: 800;
+    margin: 0;
+    
+
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+    
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #301ef356;;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+
+}
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #eae5f0;
+    background: #fe00fe;
+    cursor: pointer;
+    box-shadow: opx 10px 40px -12px #00ff8052;
+    border-radius: 16px;
+    transition: all 0.5s;
+}  
+.btt > bnt {
+    color: #00ff88;
+    
+}
+.palavras{
+    color:white
+}
+.palavras2{
+    color: white;
+}
+#text1{
+    color: #020202;
+}
+@media screen and (max-width: 1330px) {
+     .left-login img{
+        display: none;
+    }
+    .left-login h1 {
+           display: none;
+    }
+    .left-login{
+        display: none;
+
+    }
+    .card-login {
+        align-items: center;
+        position: absolute;
+        height: auto;
+        width: 35%;
+    }
+}
+
+
+/* footer */
+/* footer superior */
+#til{
+    margin-bottom: 10px;
+    font-family: 'Bungee', cursive;
+    color: rgb(33, 2, 95);
+    text-shadow: 0.1em 0.1em rgb(168, 146, 255);
+}
+
+div .sup1{
+    padding: 20px;
+}
+
+.superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+}
+
+div .trabalhe{
+    width: 350px;
+    color: rgba(245, 245, 245, 0.575);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div .hr3{
+    width: 1px;
+    height: 200px;
+    /* margin-left: 25%; */
+    background: linear-gradient(#ff00a250, #7b04eb5e);
+}
+
+div .avaliacao{
+    width: 350px;
+    color: rgba(245, 245, 245, 0.575);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.trabal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TrabaAval{
+    font-family: 'Bungee', cursive;
+    color: rgb(33, 2, 95);
+    text-shadow: 0.1em 0.1em rgb(168, 146, 255);
+}
+
+.aval{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p{
+    text-align: left;
+}
+
+
+.imgTraba img{
+    width: 80px;
+}
+
+.imgAval img{
+    width: 80px;
+}
+
+/* footer superior */
+
+/* footer inferior */
+.inferior{
+    background-color: black;
+}
+
+.abaixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.rodape{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* width: 50px;
+    height: 70px; */
+    margin: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* footer */
+
+.cop h2{
+    
+    text-align: center;
+}
+
+.cop img{
+    width: 150px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .img2{
+    width: 39px;
+    
+}
+
+.icons .img1{
+    width: 41px;
+}
+
+.icons .img3{
+    width: 38px;
+}
+
+a img:hover{
+    transform: scale(1.2);
+    transition: all 2.0s
+}
+
+
+.boton{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: black;
+    color: whitesmoke;
+}
+.hr{
+    /* width: 50%; */
+    height: 1px;
+    /* margin-left: 25%; */
+    background: linear-gradient(#ff00a0, #7a04eb);
+    
+}
+
+.hr2{
+    width: 50%;
+    height: 1px;
+    margin-left: 25%;
+    background: linear-gradient(#ff00a250, #7b04eb5e);
+    
+}
+
+.contato{
+    color: rgba(245, 245, 245, 0.432);
+    text-align: center;
+
+}
+
+.local{
+    color: rgba(245, 245, 245, 0.432);
+    text-align: center;
+}
+
+@media (max-width: 440px){
+    .superior{
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+
+    }
+
+    .logo img{
+        width: 400px;
+    }
+
+    .container-contador{
+        position: relative;
+    }
+
+    .container-contador ul {
+        font-size: 5vw;
+    }
+    #countdown li{
+        padding: 5px;
+    }
+
+    .container-contador span{
+        font-size: 9vw;
+    }
+    .cop{
+        justify-content: center;
+        align-items: center;
+        margin-left: 6px;
+        
+    }
+
+    .boton1{
+        padding: 20px;
+        flex-wrap: wrap;
+        
+    }
+    .contato{
+        margin-right: 10.5px;
+    }
+    .rodape{
+        margin: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .recursos{
+        width: 100px;
+        height: 140.400px;
+    }
+    div .sup1{
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+
+}   
